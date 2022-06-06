@@ -664,13 +664,11 @@ section {
 .contact .info .email p {
   padding-top: 5px;
 }
-.contact .info .social-links {
-  padding-left: 60px;
-}
-.contact .info .social-links a {
+
+.contact .info .social-links2 a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
+  /* background: #333; */
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -679,16 +677,20 @@ section {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  margin-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
-.contact .info .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
-}
+
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
   background: #149ddd;
   color: #fff;
 }
+
+.social-links2 .linkedin:hover i, .social-links2 .github:hover i, .social-links2 .instagram:hover i,  .social-links2 .telegram:hover i,  .social-links2 .whatsapp:hover i {
+  background: #149ddd;
+  color: #fff;
+}
+
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
